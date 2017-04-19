@@ -155,5 +155,119 @@ footer {
 	padding-top: 15px;
 	font-size: 10px;
 
+}
 
+@media screen and (max-width: 980px) {
+	
+	header {
+	width: 100%;
+	}
+
+	.logo {
+		font-size: 18px;
+		width: 19%;
+	}
+
+	.aboutMe, .contactform, .folio {
+		width: 40%;
+		margin: 0px 20px 100px 100px;
+
+	}
+
+	.aboutMe img {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	
+	.aboutMe p {
+		padding: 0px 15px;
+		float: right;
+	}
+
+	.connect {
+		width: 30%;
+		margin-left: 5px;
+		margin-right: 20px;
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	header {
+		width: 100%;
+	}
+
+	.logo {
+		font-size: 18px;
+
+	}
+
+	.aboutMe, .contactform, .folio {
+		width: 100%;
+		margin: 10px auto;
+	}
+
+	.aboutMe img {
+		float: left;
+		max-width: 100%;
+		display: inline;
+	}
+
+	.aboutMe p {
+		float: left;
+	}
+
+	.connect {
+		width: 100%;
+		margin: 10px auto;
+		margin-bottom: 100px;
+		
+	}
+	
+}
+
+@media screen and (max-width: 640px) {
+	
+
+
+	li.logo {
+		position: relative;
+		top: -16px;
+		margin-left: -10%;
+		width: 107%;
+		float: left;
+		display: block;
+	}
+
+	ul li {
+		text-align: center;
+	}
+
+
+	.aboutMe, .contactform, .folio {
+		width: 100%;
+		margin: 20px auto;
+
+	}
+
+	.aboutMe img {
+		max-width: 100%;
+		height: auto;
+		float: left;
+	}
+
+	.imgbox img {
+		max-width: 100%;
+		height: auto;
+		margin: 0 auto;
+
+	}
+
+	.connect {
+		margin: 0 auto;
+		width: 100%;
+		margin-bottom: 100px;
+		
+	}
 }
